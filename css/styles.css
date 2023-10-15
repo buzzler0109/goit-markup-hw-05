@@ -537,9 +537,9 @@ a {
   padding-left: 16px;
   color: #fff;
   background-color: transparent;
-   font-size: 12px;
-   line-height: 1.5;
-   letter-spacing: 0.04em; 
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   width: 264px;
   height: 40px;
   border-radius: 4px;
@@ -560,7 +560,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
   min-width: 165px;
   height: 40px;
   border: none;
@@ -590,7 +590,8 @@ a {
   background-color: rgba(46, 47, 66, 0.4);
   top: 0;
   left: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* opacity: 0;
   visibility: hidden;
   pointer-events: none; */
@@ -606,8 +607,9 @@ a {
   border-radius: 4px;
   background-color: #fcfcfc;
   padding: 72px 24px 24px 24px;
-  transition:  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .modal-btn-close {
@@ -623,7 +625,8 @@ a {
   position: absolute;
   right: 24px;
   top: 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn-icon {
@@ -642,7 +645,7 @@ a {
 }
 
 .modal-btn-close:focus .modal-btn-icon {
-    fill: #fff;
+  fill: #fff;
 }
 
 .modal-title {
@@ -774,7 +777,9 @@ a {
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   fill: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-text {
@@ -795,7 +800,7 @@ a {
 .checkbox-box:checked + .checkbox-text span {
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
 
 .is-open {
